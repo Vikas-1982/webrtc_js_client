@@ -47,7 +47,7 @@ Entry point: `src/main.ts` mounts `src/App.vue`; core logic lives in `src/peerCo
 - `src/style.css`: global styles.
 
 ## Server Side
-- Open-source signaling/media server: https://github.com/runner365/RTCPilot
+- Open-source signaling/media server: [https://github.com/runner365/RTCPilot](https://github.com/runner365/RTCPilot)
 
 ## Config & Debugging
 - Default signaling URL is the `wsUrl` constant in `src/App.vue`; adjust to your server.

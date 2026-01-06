@@ -47,7 +47,7 @@
 - `src/style.css`：全局样式。
 
 ## 服务端开源地址
-- 信令/媒体服务端示例：https://github.com/runner365/RTCPilot
+- 信令/媒体服务端：- Open-source signaling/media server: [https://github.com/runner365/RTCPilot](https://github.com/runner365/RTCPilot)
 
 ## 配置与调试
 - 默认信令地址在 `src/App.vue` 的 `wsUrl` 常量，按实际服务器修改。
